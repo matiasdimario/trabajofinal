@@ -1,0 +1,117 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-color: #1A2A3A;
+    display: flex;
+    flex-direction: column;
+}
+
+#textologo{
+    margin-top: 6px;
+}
+
+li{
+    list-style-type:none;
+}
+
+.logo{
+    float:left;
+    display: inline-flex;
+    font-size: 25px;
+}
+
+.logo a{
+    text-decoration:none;
+    color: #DACCAE;
+    padding-top: 9px;
+}
+
+.logo img{
+    height: 45px;
+}
+
+.menusuperior{
+    display: flex;
+    justify-content: right;
+}
+
+.menusuperior li{
+    display: inline-block;
+    padding: 1vh ;
+    font-size: 25px;
+}
+
+.menusuperior a{
+    text-decoration:none;
+    color: #DACCAE;
+	font-weight: 600;
+
+}
+
+.contenido {
+    background-color: rgb(255, 255, 255);
+    height: 85vh;
+    width: 85%;
+    float: left;
+    padding: 1px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.portadaslibros {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 4%;
+}
+
+.portadaslibros img {
+    width: 25%;
+    align-content: center;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 10px 5px;
+}
+
+.barralateral{
+    background-color: rgb(255, 255, 255);
+	float: right;
+    width: 15% ;
+    height: 85vh;
+    padding: 2px
+}
+
+footer{
+    background-color: rgb(255, 255, 255);
+    border: solid 5px green;
+    clear: both;
+    height: 10vh;
+    position: fixed bottom
+}
+
+/*Tablet*/
+@media (min-width: 576px) {
+    .portadaslibros img {
+        width: 20%;
+    }
+}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+#recomendador{
+	color: #ffffff;
+	background-color: #1A2A3A;
+	border-radius: 6px;
+}
+
+#recomendador a {
+	text-decoration: none;
+	color: #ffffff;
+}

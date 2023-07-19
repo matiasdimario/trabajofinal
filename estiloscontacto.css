@@ -1,0 +1,15 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+	max-width: 50%;
+	margin: 0 auto;
+}
+
+.formulario label {
+    margin-bottom: 5px;
+}
+
+.formulario input,
+.formulario textarea {
+margin-bottom: 10px;
+}
